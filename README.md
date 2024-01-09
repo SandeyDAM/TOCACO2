@@ -7,7 +7,15 @@ Trabajo sobre documentación de gestión de repositorios o algo así
 
 ### ¿Cómo podemos crear un repositorio remoto?
     
-Para llevar nuestro repositorio local a un repositorio remoto, primero tenemos que crear un repositorio en GitHub que para hacerlo debemos ir al DashBoard de nuestro GitHub y en la parte derecha nos saldrá un + que al darle ahi nos llevará a un menú, donde le pondremos nombre 
+Para llevar nuestro repositorio local a un repositorio remoto, primero tenemos que crear un repositorio en GitHub que para hacerlo debemos ir al DashBoard de nuestro GitHub y en la parte derecha nos saldrá un + que al darle ahi nos llevará a un menú: ![image](https://github.com/SandeyDAM/TOCACO2/assets/149526445/f04967cf-11cd-4963-b614-540eefdf5dc3)
+
+Donde aqui podremos ver: 
+- Nombre: Pondremos el nombre del repositorio
+- Descripción: Es opcional, podemos describir lo que haremos en nuestro repositorio
+- Privacidad del repositorio: Ahí pondremos si queremos que nuestro repositorio sea privado o público.
+- Inicializar un ReadME
+- Añadir un .gitignore
+- Añadir una licencia 
  
 
 ### ¿Qué es el README.md?
@@ -27,4 +35,5 @@ Para crear estos archivos, basta con crear un archivo de texto plano con el nomb
 Acto seguido, los usuarios podrán especificar los archivos o directorios que deseen ignorar utilizando patrones Gitignore. Por ejemplo, para ignorar todos los archivos .txt en un directorio llamado price_list, puedes crear un archivo Gitignore con el siguiente contenido:
 
 *.txt
+
 price_list/
