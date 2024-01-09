@@ -22,7 +22,18 @@ Donde aqui podremos ver:
 
 Los archivos readme son archivos que contienen información importante sobre el sistema, proyecto o software al que hacen referencia. Debido a su utilidad, se recomienda ubicarlo en el nivel supeiror del directorio para que sea fácil de encontrar por los usuarios.
 
+### Sobre Markdown
 
+- Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple
+
+- Nació como una herramienta de conversión de texto plano a HTML. Se distribuye de manera gratuita bajo una **licencia BSD**.
+
+- También se considera un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
+
+- Los comandos de Markdown son admitidos por el editor de tickets de manera automática. Se pueden ingresar comandos de Markdown para formatear el contenido o, si se prefiere, se puede usar la barra de herramientas de formato para agregar contenido enriquecido
+
+- Este tipo de formato siempre será compatible con todas las plataformas que utilices, así que utilizar Markdown es una manera de mantener todo tu contenido siempre accesible desde cualquier dispositivo.
+  
 ### ¿Qué es el fichero .gitignore?
 
 Gitignore es una herramienta utilizada en Git para excluir archivos y directorios del control de versiones. Ayuda a los usuarios a mantener sus repositorios limpios y organizados evitando que se rastreen archivos innecesarios.
@@ -37,3 +48,5 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
 *.txt
 
 price_list/
+
+
