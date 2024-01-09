@@ -16,6 +16,17 @@ Donde aqui podremos ver:
 - Inicializar un ReadME
 - Añadir un .gitignore
 - Añadir una licencia 
+
+ ***Una vez hecho todos estos pasos lo siguiento es irnos a nuestro terminal;***
+
+ Aqui para comenzar lo que tenemos que hacer es añadir la dirección del repositorio remoto a nuestro repositorio local, para ver nuestra dirección tenemos que irnos al panel principal de nuestro repositorio buscar está opción ![image](https://github.com/SandeyDAM/TOCACO2/assets/149526445/37003cb9-7d3a-4d75-90eb-e946ed853900)
+Y ahi encontraremos la dirección.
+
+Una vez encontrada nuestra dirección debemos poner el siguiente comando:
+    
+    $ git remote add origin <url de nuestro repo>
+
+
  
 
 ### ¿Qué es el README.md?
