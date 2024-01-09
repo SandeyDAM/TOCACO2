@@ -56,8 +56,6 @@ Para crear estos archivos, basta con crear un archivo de texto plano con el nomb
 
 Acto seguido, los usuarios podrán especificar los archivos o directorios que deseen ignorar utilizando patrones Gitignore. Por ejemplo, para ignorar todos los archivos .txt en un directorio llamado price_list, puedes crear un archivo Gitignore con el siguiente contenido:
 
-*.txt
-
-price_list/
+    *.txt price_list/
 
 
