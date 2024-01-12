@@ -89,6 +89,12 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
     price_list/
 
 
+### Tres formas de integrar el repositorio remoto en un repositorio local.
+
+
+
+
+
 ### ¿Comó realizar un commit?
 
 Consolidar, confirmar o hacer un commit se refiere a la idea de confirmar un conjunto de cambios provisionales de forma permanente.
