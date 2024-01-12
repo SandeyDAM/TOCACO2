@@ -170,6 +170,9 @@ Forzando borrado:
 
 ### Diferencias entre un pull y un fetch.
 
+La diferencia esta en que:
+
+Con ***git fetch*** descargaremos el contenido remoto sin modificar el estadod del repo local, que lo diferencia con ***git pull***, que descargará el contenido que está en remoto y tratará inmediatamente de cambiar el estado en el que se encuentra el repositorio local, para asi poder enseñar ese contenido. Y esto podrá, de manera accidental provocar un conflicto dentro del repositorio local.
 
 ### ¿Cómo podríamos volver a una versión anterior del proyecto?
 
