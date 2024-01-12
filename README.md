@@ -1,7 +1,7 @@
 # TOCACO2
 Trabajo sobre documentación de gestión de repositorios o algo así
 
-## Trabajo realizado por Javier Cotillas, Alejandro Costa, Domingo Cabrero y Angél Toledo
+## Trabajo realizado por Javier Cotillas, Alejandro Costa, Domingo Cabrero y Ángel Toledo
 
 # Parte 1 
 
@@ -88,4 +88,11 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
 
 ### ¿Cada cuanto hay que realizar un commit?
 Un commit se debe realizar cada vez que quieras confirmar un cambio en tu proyecto, es decir, ¿Acabas de añadir una nueva funcionalidad a tu programa?, pues en ese momento deberias realizar un commit con todos los cambios añadidos. Debes tener en cuenta que estos siempre se deben hacer una vez este esta nueva funcionalidad totalmente testeada y estes seguro de querer implementarla a tu proyecto.
+
+
+### ¿Cómo podríamos trabajar varias personas en el mismo proyecto?
+
+Para poder trabajar varias personas en el mismo proyecto de GitHub, lo que debemos hacer es:
+
+En nuestro repositorio nos iremos a la configuración del mismo y allí, nos vamos al apartado llamado *Access*, donde encontraremos la pestaña llamada *Collaborators* donde desde alli podremos añadir a todos los colaboradores que queremos que se añadan a nuestro proyecto.
 
