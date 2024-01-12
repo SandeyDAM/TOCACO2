@@ -58,7 +58,18 @@ Los archivos readme son archivos que contienen información importante sobre el 
 - Este tipo de formato siempre será compatible con todas las plataformas que utilices, así que utilizar Markdown es una manera de mantener todo tu contenido siempre accesible desde cualquier dispositivo.
 
 ### ¿Qué son y qué utilidad tienen las licencias?
+Las licencias son permisos que informan a las demás personas de lo que pueden hacer y lo que no con tú codigo fuente.
 
+Hay distintos tipos de licencias:
+
+- Licencia MIT: Es una licencia de software permisiva, es decir, marca pocas limitaciones en la reutilización de código. Por lo que posee  una compatibilidad de licencia muy buena. También permite reutilizar software dentro del software propietario. Es compatible con licencias copyleft, como la GNU(el software con licencia MIT puede integrarse en software con licencia GPL, pero no viceversa).
+
+- Licencia GNU GPL: Es una licencia de software libre que garantiza a los usuarios finales la libertad de usar, estudiar, compartir y modificar el software. Tiene dos propósitos: declarar que el software cubierto por esta licencia es libre, y protegerlo de intentos de apropiación que restrinjan esas libertades a nuevos usuarios cada vez que la obra es distribuida, modificada o ampliada (mediante una práctica conocida como copyleft) .
+
+- Licencia Apache:  Es una licencia de software libre permisiva, pero no es una licencia copyleft, ya que no requiere la redistribución del código fuente cuando se distribuyen versiones modificadas.
+Al igual que las anteriores, otorga al usuario la libertad de usar el software para cualquier propósito, re distribuirlo, modificarlo y distribuir versiones modificadas del software.
+
+- No License: Se produce cuando no ponemos licencia en nuestro pryecto. En este caso se aplican las leyes de derecho de autor predeterminadas, lo que implica que se conservan todos los derechos del código fuente, y nadie puede reproducir, distribuir o crear trabajos a partir de éste. 
 
 
 
