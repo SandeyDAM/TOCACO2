@@ -96,3 +96,24 @@ Para poder trabajar varias personas en el mismo proyecto de GitHub, lo que debem
 
 En nuestro repositorio nos iremos a la configuración del mismo y allí, nos vamos al apartado llamado *Access*, donde encontraremos la pestaña llamada *Collaborators* donde desde alli podremos añadir a todos los colaboradores que queremos que se añadan a nuestro proyecto.
 
+
+
+# Parte 2 
+
+### Creación de ramas.
+
+### Proceso de merge entre ramas.
+
+
+### Resolución de conflictos en un merge
+
+
+### Diferencias entre un pull y un fetch.
+
+
+### ¿Cómo podríamos volver a una versión anterior del proyecto?
+
+
+### ¿Podemos añadir seguridad de alguna forma a nuestro repositorio remoto?
+
+
