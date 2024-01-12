@@ -210,15 +210,15 @@ y ejecutamos el comando brnach -d para eliminarla:
 Algunas veces la unión de dos ramas no funciona, sino que ocurre un conflicto. Esto ocurre cuando los commits de la rama a fusionar, y la rama actual, modifican la misma parte en un archivo en particular y git no puede decidir cuál versión elegir. Por lo que te avisa de que tu debes resolverlo. Por ejemplo:
 Supongamos que un directorio tenemos un archivo index.html con el siguiente contenido:
 
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Titulo</title>
-  </head>
-  <body>
-    <p>Contenido de la web</p>
-  </body>
-</html>
+    <!DOCTYPE HTML>
+    <html>
+      <head>
+        <title>Titulo</title>
+      </head>
+      <body>
+        <p>Contenido de la web</p>
+      </body>
+    </html>
 
 Inicializaremos un repositorio haciendo git init y luego haremos nuestro primer commit con: 
 
