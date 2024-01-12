@@ -31,7 +31,7 @@ Una vez encontrada nuestra dirección debemos poner el siguiente comando:
 
 ### ¿Qué es el README.md?
 
-Los archivos readme son archivos que contienen información importante sobre el sistema, proyecto o software al que hacen referencia. Debido a su utilidad, se recomienda ubicarlo en el nivel supeiror del directorio para que sea fácil de encontrar por los usuarios.
+Los archivos readme son archivos que contienen información importante sobre el sistema, proyecto o software al que hacen referencia. Debido a su utilidad, se recomienda ubicarlo en el nivel superior del directorio para que sea fácil de encontrar por los usuarios.
 
 ### Sobre Markdown
 
