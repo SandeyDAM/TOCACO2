@@ -72,3 +72,14 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
     price_list/
 
 
+### ¿Comó realizar un commit?
+
+
+
+
+
+
+
+### ¿Cada cuanto hay que realizar un commit?
+
+
