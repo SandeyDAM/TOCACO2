@@ -87,5 +87,5 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
 
 
 ### ¿Cada cuanto hay que realizar un commit?
-Un commit se debe realizar cada vez que quieras confirmar un cambio en tu proyecto, es decir, ¿Acabas de añadir una nueva funcionalidad a tu prograama?, pues en ese momento deberias realizar un commit con todos los cambios añadidos. Debes tener en cuenta que estos siempre se deben hacer una vez este esta nueva funcionalidad totalmente testeada y estes seguro de querer implementarla a tu proyecto.
+Un commit se debe realizar cada vez que quieras confirmar un cambio en tu proyecto, es decir, ¿Acabas de añadir una nueva funcionalidad a tu programa?, pues en ese momento deberias realizar un commit con todos los cambios añadidos. Debes tener en cuenta que estos siempre se deben hacer una vez este esta nueva funcionalidad totalmente testeada y estes seguro de querer implementarla a tu proyecto.
 
