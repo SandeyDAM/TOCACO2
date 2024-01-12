@@ -197,8 +197,11 @@ Para poder mergear una rama a otra tenemos que usar el comando merge:
 Con este comando estaremos mergeando la rama que elijamos con la rama superior. En este proceso la rama que hemos elejido se sobreescribe en la rama superior, pero no se elimina.
 
 Si se desea eliminar la rama una vez mergeada nos situamos en otra rama con el comando checkout:
+
     git checkout <nombre de la otra rama>    
+    
 y ejecutamos el comando brnach -d para eliminarla:
+
     git branch -d <nombre de la rama>
 
 ### Resolución de conflictos en un merge.
@@ -252,7 +255,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Git no proporciona una ayuda diciéndonos que archivo tiene el conflicto, el cual al abrirlo nos muestra cuáles son los cambios tanto de una rama como de la otra:
 
-![image](https://styde.net/wp-content/uploads/2015/10/conflicto-con-git-merge.png))
+![image](https://styde.net/wp-content/uploads/2015/10/conflicto-con-git-merge.png)
 
 
 donde tenemos que elegir entre lo que está entre <<<<<<< HEAD y ======= que es contenido que tenemos en la rama donde estamos haciendo el merge (master) o entre ======= y >>>>>>> contenido donde están los cambios hechos en la rama que queremos unir (contenido). 
@@ -281,6 +284,35 @@ Con ***git fetch*** descargaremos el contenido remoto sin modificar el estadod d
 
 ### ¿Cómo podríamos volver a una versión anterior del proyecto?
 
+
+Para deshacer y rehacer cambios en Git, existe el comando:
+
+    git reset
+
+Que tiene tres formas de invocación: --hard, --mixed y --soft.
+
+Con la primera forma --hard, lo que hará es retroceder al sistema en su linea de dependencia hasta la version que le diga el programador.
+
+    git reset --hard <version>
+
+Si queremos saber el historial del respositorio y ver que cambios deshizo el comando, deberás poner el comando:
+
+    git log
+
+Otra manera que tenemos para regresar es usando la clave única:
+
+    git reset --hard <version> <clave>
+
+Es importante saber que, git nunca va a eliminar nada y que cada versión tendrá su clave única. Así que, por muchos cambios que deshagas o hagas, siempre habrá un backup.
+
+Para poder recuperar las versiones que deshiciste en un paso anterior, debes utilizar el comando: *git reflog*. 
+Al usar este comando de esta manera:
+
+    git reflog
+
+Nos devolvera un listado con todos los movimientos realizados del más moderno al mas antiguo, donde también encontraremos los HASH, unas claves de **7 dígitos** que nos permitirá identificar los commit y volver a ellos.
+
+    git reflog --hard HEAD <clave>
 
 ### ¿Podemos añadir seguridad de alguna forma a nuestro repositorio remoto?
 
