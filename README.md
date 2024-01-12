@@ -189,6 +189,17 @@ Forzando borrado:
 
 ### Proceso de merge entre ramas.
 
+El proceso de merge consiste en combinar o fusionar ramas con el objetivo de llevar todos los cambios que se han realizado(errores, nuevas funcionalidades...) a la rama principal(main) o a una superior.
+
+Para poder mergear una rama a otra tenemos que usar el comando merge:
+    git merge <nombre de la rama>
+
+Con este comando estaremos mergeando la rama que elijamos con la rama superior. En este proceso la rama que hemos elejido se sobreescribe en la rama superior, pero no se elimina.
+
+Si se desea eliminar la rama una vez mergeada nos situamos en otra rama con el comando checkout:
+    git checkout <nombre de la otra rama>    
+y ejecutamos el comando brnach -d para eliminarla:
+    git branch -d <nombre de la rama>
 
 ### Resolución de conflictos en un merge.
 
