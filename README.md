@@ -318,3 +318,13 @@ Nos devolvera un listado con todos los movimientos realizados del más moderno a
 ### ¿Podemos añadir seguridad de alguna forma a nuestro repositorio remoto?
 
 
+
+# Parte 3 
+
+### ¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?
+
+
+
+### Conflictos que nos han surgido.
+
+
