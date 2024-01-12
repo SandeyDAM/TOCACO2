@@ -56,6 +56,12 @@ Los archivos readme son archivos que contienen información importante sobre el 
 - Los comandos de Markdown son admitidos por el editor de tickets de manera automática. Se pueden ingresar comandos de Markdown para formatear el contenido o, si se prefiere, se puede usar la barra de herramientas de formato para agregar contenido enriquecido
 
 - Este tipo de formato siempre será compatible con todas las plataformas que utilices, así que utilizar Markdown es una manera de mantener todo tu contenido siempre accesible desde cualquier dispositivo.
+
+### ¿Qué son y qué utilidad tienen las licencias?
+
+
+
+
   
 ### ¿Qué es el fichero .gitignore?
 
