@@ -317,6 +317,42 @@ Nos devolvera un listado con todos los movimientos realizados del más moderno a
 
 ### ¿Podemos añadir seguridad de alguna forma a nuestro repositorio remoto?
 
+Nuestro repositorio remoto podemos ponerlo público o privado.
+
+Para hacerlo público o privado realizamos lo siguiente:
+
+1. Vaya al panel de proyecto que quiera convertir en público o privado.
+
+2. En el lado superior derecho de la instancia de proyecto clásico, haz clic en  **Menú**.
+
+3. Haga clic en los **3 puntitos** y después en Configuración.
+
+4. En **Visibilidad**, elija la conversión del panel de proyecto en público o privado.
+
+5. Pulsamos sobre **Guardar**.
+
+
+También podemos dar permisos para poder elegir quien puede realizar cambios en nuestro proyecto.
+
+Para dar permisos deberemos realizar lo siguiente:
+
+1. Nos metemos en el **repositorio**.
+2. Seleccionamos la opcion **ajustes**.
+3. Accedemos a **collaborators**.
+4. Pulsamos sobre **añadir personas**.
+
+Esa persona ya podrá realizar cambios.
+
+Podemos crear reglas para proteger el repositorio:
+- **Restricciones de creaciones**.
+- **Restricciones de actualizaciones**.
+- **Restricciones de borrados**.
+- **Requerir historial**.
+- **Requerir la firma en los commits**.
+- **Requerir una pull request antes de realizar un merge**.
+- **Bloquear push forzados.**
+
+
 
 
 # Parte 3 
