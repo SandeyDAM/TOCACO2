@@ -192,6 +192,7 @@ Forzando borrado:
 El proceso de merge consiste en combinar o fusionar ramas con el objetivo de llevar todos los cambios que se han realizado(errores, nuevas funcionalidades...) a la rama principal(main) o a una superior.
 
 Para poder mergear una rama a otra tenemos que usar el comando merge:
+
     git merge <nombre de la rama>
 
 Con este comando estaremos mergeando la rama que elijamos con la rama superior. En este proceso la rama que hemos elejido se sobreescribe en la rama superior, pero no se elimina.
