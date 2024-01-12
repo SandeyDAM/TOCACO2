@@ -26,8 +26,20 @@ Una vez encontrada nuestra dirección debemos poner el siguiente comando:
     
     $ git remote add origin <url de nuestro repo>
 
-
  
+***También podemos crear un repositorio local a partir de uno remoto;***
+
+ Está opción la debemos usar cuando hemos creado el repositorio en GitHub pero todavia no tenemos un repositorio, en este caso debemos usar el comando git clone para clonar todos los datos del GitHub a nuestro repositorio local.
+
+     $ git clone https://github.com/UC3Music-e/test-repository.git
+
+Este mediante protocolo HTTP.
+
+    $ git clone git@github.com:UC3Music-e/test-repository.git
+
+Este por ssh.
+
+Y estas maneras son las que tenemos para crear un repositorio remoto.
 
 ### ¿Qué es el README.md?
 
