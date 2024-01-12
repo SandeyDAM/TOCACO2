@@ -92,6 +92,31 @@ Acto seguido, los usuarios podrán especificar los archivos o directorios que de
 ### Tres formas de integrar el repositorio remoto en un repositorio local.
 
 
+La primera forma de integrar un repositorio remoto a un repositorio local es clonando el repositorio remoto. 
+
+
+    git clone <repo url>
+
+Al ejecutar git clone, tienen lugar las siguientes acciones:
+
+- Se crea una carpeta con el nombre repo
+- Esta carpeta se inicializa como un repositorio de Git.
+- Se crea un repositorio remoto denominado origin, que apunta a la dirección URL desde la que ha realizado la clonación
+- Todos los archivos y confirmaciones del repositorio se descargan aquí.
+- La rama predeterminada está desmarcada
+
+La segunda forma es fusionar cambios en tu rama local.
+
+Esta forma consiste en combinar tus cambios locales con los cambios realizados por otros, es decir combina tu repositorio local con el repositorio remoto.
+
+    $ git merge REMOTE-NAME/BRANCH-NAME
+
+La tercera forma consiste en extraer los cambios de un repositorio remoto a un repositorio local.
+
+git pull es un método abreviado útil para completar git fetch y git mergeen el mismo comando:
+
+    $ git pull REMOTE-NAME BRANCH-NAME
+
 
 
 
