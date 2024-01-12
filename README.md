@@ -190,7 +190,76 @@ Forzando borrado:
 ### Proceso de merge entre ramas.
 
 
-### Resolución de conflictos en un merge
+### Resolución de conflictos en un merge.
+
+Algunas veces la unión de dos ramas no funciona, sino que ocurre un conflicto. Esto ocurre cuando los commits de la rama a fusionar, y la rama actual, modifican la misma parte en un archivo en particular y git no puede decidir cuál versión elegir. Por lo que te avisa de que tu debes resolverlo. Por ejemplo:
+Supongamos que un directorio tenemos un archivo index.html con el siguiente contenido:
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Titulo</title>
+  </head>
+  <body>
+    <p>Contenido de la web</p>
+  </body>
+</html>
+
+Inicializaremos un repositorio haciendo git init y luego haremos nuestro primer commit con: 
+
+    git add index.html 
+
+Y luego:
+
+    git commit -m “commit inicial”
+
+Vamos a crear una nueva rama para añadir algo de contenido:
+
+    git checkout -b contenido
+
+Con ello ya estamos en la nueva rama y ahora vamos a cambiar el título. Guardamos los cambios y hacemos commit en esa rama: 
+
+    git commit -a -m “cambios en el titulo”
+
+Nos movemos de nuevo a la rama master:
+
+    git checkout master
+
+Hacemos otros cambios en el archivo incluyendo el título y luego commit de los cambios:
+
+    git commit -a -m “se añade más contenido”
+
+Ahora intentamos hacer merge con la rama creada anteriormente:
+
+git merge contenido
+
+En este caso no podrá hacer el merge y nos mostrará que hay un conflicto que no nos permitirá continuar hasta que se resuelva:
+
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+Git no proporciona una ayuda diciéndonos que archivo tiene el conflicto, el cual al abrirlo nos muestra cuáles son los cambios tanto de una rama como de la otra:
+
+![image](https://styde.net/wp-content/uploads/2015/10/conflicto-con-git-merge.png))
+
+
+donde tenemos que elegir entre lo que está entre <<<<<<< HEAD y ======= que es contenido que tenemos en la rama donde estamos haciendo el merge (master) o entre ======= y >>>>>>> contenido donde están los cambios hechos en la rama que queremos unir (contenido). 
+
+Para ello arreglamos el archivo con los cambios elegidos, guardamos, agregamos y hacemos commit de los cambios:
+
+    git commit -a
+
+y de esta manera lograremos hacer merge con éxito.
+
+Otra manera para resolver conflictos es indicando de antemano a git que estrategia tomar cuando tiene que decidir ante un conflicto. Esto se hace con las opciones ours y theirs, de esta manera:
+
+    git merge -s recursive -X theirs rama-a-fusionar
+
+Esto cuando queremos que git resuelva el conflicto usando los cambios de la rama a fusionar (theirs o suyos) y cuando queremos que tome los cambios de la rama donde se está fusionando (ours o nuestros): 
+
+    git merge -s recursive -X ours rama-a-fusionar
+
 
 
 ### Diferencias entre un pull y un fetch.
