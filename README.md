@@ -145,6 +145,23 @@ En nuestro repositorio nos iremos a la configuración del mismo y allí, nos vam
 
 ### Creación de ramas.
 
+Para poder crear una rama en git debemos usar el **git branch**:
+
+    git branch <nombre de la rama>
+
+Para cambiar entre ramas:
+
+    git checkout <nombre de la rama>
+
+Para borrar una rama:
+
+    git branch -d <nombre de la rama>
+
+Forzando borrado:
+
+    git branch -D <nombre de la rama>
+
+
 ### Proceso de merge entre ramas.
 
 
