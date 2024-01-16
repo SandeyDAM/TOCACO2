@@ -364,12 +364,14 @@ Una pull request consiste en solicitar a otro desarollador, normalmente el cread
 Para realizar una pull request, primero tenemos que hacer un fork del repositorio al que queremos aportar "algo".
 
 - Para hacer un fork, tendremos que hacear click en esta opcion: 
-(<Captura de pantalla 2024-01-12 165831.png>). 
+<img width="106" alt="Captura de pantalla 2024-01-12 165831" src="https://github.com/SandeyDAM/TOCACO2/assets/153659280/e381e764-b6cf-41a5-889b-c832013328f9">
+ 
 Esto creará una instancia del repositorio en nuestra cuenta.
 
 - A continuación, copiaremos el enlace de nuestro repositorio haciendo clik en el cuadro verde "code" y copiando la url. 
 
-(<Captura de pantalla 2024-01-12 170201.png>)
+<img width="404" alt="Captura de pantalla 2024-01-12 170201" src="https://github.com/SandeyDAM/TOCACO2/assets/153659280/8cb47726-7950-4fb4-890f-b4ad4d65aff8">
+
 
 - Ahora clonaremos el repositorio localmente con el comando clone:
 
@@ -382,7 +384,6 @@ Esto creará una instancia del repositorio en nuestra cuenta.
     git push <nombre del repositorio remoto> [nombre de la rama]
 
 - Por último, realizamos la pull request en github haciendo click en el botón pull request,
-
 
 pondremos todos los cambios que se realizan y esperaremos a que nuestra pull request sea aceptada.
 
