@@ -384,6 +384,7 @@ Esto creará una instancia del repositorio en nuestra cuenta.
     git push <nombre del repositorio remoto> [nombre de la rama]
 
 - Por último, realizamos la pull request en github haciendo click en el botón pull request,
+<img width="960" alt="Captura de pantalla 2024-01-16 190010" src="https://github.com/SandeyDAM/TOCACO2/assets/153659280/0419e9e3-4f5b-4f65-a7be-21bcf22acae2">
 
 pondremos todos los cambios que se realizan y esperaremos a que nuestra pull request sea aceptada.
 
