@@ -246,7 +246,7 @@ Hacemos otros cambios en el archivo incluyendo el título y luego commit de los 
 
 Ahora intentamos hacer merge con la rama creada anteriormente:
 
-git merge contenido
+    git merge contenido
 
 En este caso no podrá hacer el merge y nos mostrará que hay un conflicto que no nos permitirá continuar hasta que se resuelva:
 
