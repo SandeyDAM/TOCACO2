@@ -344,13 +344,13 @@ Para dar permisos deberemos realizar lo siguiente:
 Esa persona ya podrá realizar cambios.
 
 Podemos crear reglas para proteger el repositorio:
-- **Restricciones de creaciones**.
-- **Restricciones de actualizaciones**.
-- **Restricciones de borrados**.
-- **Requerir historial**.
-- **Requerir la firma en los commits**.
-- **Requerir una pull request antes de realizar un merge**.
-- **Bloquear push forzados.**
+- Restricciones de creaciones.
+- Restricciones de actualizaciones.
+- Restricciones de borrados.
+- Requerir historial.
+- Requerir la firma en los commits.
+- Requerir una pull request antes de realizar un merge.
+- Bloquear push forzados.
 
 
 
