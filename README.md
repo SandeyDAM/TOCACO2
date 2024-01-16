@@ -256,7 +256,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Git no proporciona una ayuda diciéndonos que archivo tiene el conflicto, el cual al abrirlo nos muestra cuáles son los cambios tanto de una rama como de la otra:
 
-![image](https://styde.net/wp-content/uploads/2015/10/conflicto-con-git-merge.png)
+![image](https://github.com/SandeyDAM/TOCACO2/assets/149526445/b45d92e6-af46-4a2f-bdb6-3fc210ba648e)
+
 
 
 donde tenemos que elegir entre lo que está entre <<<<<<< HEAD y ======= que es contenido que tenemos en la rama donde estamos haciendo el merge (master) o entre ======= y >>>>>>> contenido donde están los cambios hechos en la rama que queremos unir (contenido). 
