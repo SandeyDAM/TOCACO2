@@ -359,14 +359,17 @@ Podemos crear reglas para proteger el repositorio:
 # Parte 3 
 
 ### ¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?
-
 Una pull request consiste en solicitar a otro desarollador, normalmente el creador del proyecto, que incorpore una rama de nuestro repositorio al suyo.
 
 Para realizar una pull request, primero tenemos que hacer un fork del repositorio al que queremos aportar "algo".
 
-- Para hacer un fork, tendremos que hacear click en esta opcion: ![Alt text](<Captura de pantalla 2024-01-12 165831.png>). Esto creará una instancia del repositorio en nuestra cuenta.
+- Para hacer un fork, tendremos que hacear click en esta opcion: 
+(<Captura de pantalla 2024-01-12 165831.png>). 
+Esto creará una instancia del repositorio en nuestra cuenta.
 
-- A continuación, copiaremos el enlace de nuestro repositorio haciendo clik en el cuadro verde "code" y copiando la url. ![Alt text](<Captura de pantalla 2024-01-12 170201.png>)
+- A continuación, copiaremos el enlace de nuestro repositorio haciendo clik en el cuadro verde "code" y copiando la url. 
+
+(<Captura de pantalla 2024-01-12 170201.png>)
 
 - Ahora clonaremos el repositorio localmente con el comando clone:
 
@@ -378,7 +381,10 @@ Para realizar una pull request, primero tenemos que hacer un fork del repositori
     
     git push <nombre del repositorio remoto> [nombre de la rama]
 
-- Por último, realizamos la pull request en github haciendo click en el botón pull request, ![Alt text](pullReq.jpg), pondremos todos los cambios que se realizan y esperaremos a que nuestra pull request sea aceptada.
+- Por último, realizamos la pull request en github haciendo click en el botón pull request,
+
+
+pondremos todos los cambios que se realizan y esperaremos a que nuestra pull request sea aceptada.
 
 Si nuestra pull request es aceptada, tendremos que sincronizar nuestra rama maestra a la del repositorio orginial.
 
