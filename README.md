@@ -364,4 +364,14 @@ Podemos crear reglas para proteger el repositorio:
 
 ### Conflictos que nos han surgido.
 
+Los conflictos que nos hemos encontrado han surgido en momentos de descordinación en los que hemos intentado realizar commit varios integrantes a la vez. 
+Como resultado nos saltaba una ventana de error como la siguiente:
+
+![Captura desde 2024-01-16 18-36-46](https://github.com/SandeyDAM/TOCACO2/assets/153014823/a7a86f42-973c-4815-bbd8-84be750fadf7)
+
+Ahí podíamos acceder para ver los cambios en el proyecto y valorar como gestionar la resolución del conflicto. Por lo general, simplemente nos bastaba con copiar el contenido que queríamos plasmar en el proyecto y volver a realizar el commit tras confirmar el orden con los compañeros para evitar nuevos conflictos.
+
+
+
+
 
