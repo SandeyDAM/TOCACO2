@@ -360,7 +360,51 @@ Podemos crear reglas para proteger el repositorio:
 
 ### ¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?
 
+Una pull request consiste en solicitar a otro desarollador, normalmente el creador del proyecto, que incorpore una rama de nuestro repositorio al suyo.
 
+Para realizar una pull request, primero tenemos que hacer un fork del repositorio al que queremos aportar "algo".
+
+- Para hacer un fork, tendremos que hacear click en esta opcion: ![Alt text](<Captura de pantalla 2024-01-12 165831.png>). Esto creará una instancia del repositorio en nuestra cuenta.
+
+- A continuación, copiaremos el enlace de nuestro repositorio haciendo clik en el cuadro verde "code" y copiando la url. ![Alt text](<Captura de pantalla 2024-01-12 170201.png>)
+
+- Ahora clonaremos el repositorio localmente con el comando clone:
+
+    git colne <direccion https>
+
+- Despúes, creamos una rama nueva con el comando branch visto anteriormente. En esta rama realizaremos los cambios que queremos añadir al proyecto que hemos elegido y haremos sus corresponidentes commits.
+
+- Seguidamente, enviaremos los cambios a github con el comando push:
+    
+    git push <nombre del repositorio remoto> [nombre de la rama]
+
+- Por último, realizamos la pull request en github haciendo click en el botón pull request, ![Alt text](pullReq.jpg), pondremos todos los cambios que se realizan y esperaremos a que nuestra pull request sea aceptada.
+
+Si nuestra pull request es aceptada, tendremos que sincronizar nuestra rama maestra a la del repositorio orginial.
+
+- Para ello, primero nos situaremos en la rama main de nuestro repositorio:
+
+    git checkout master
+
+- A continuación, agregaremos el repositorio original como un repositorio upstream al repsoitorio local. Para ello, utilizaremos: 
+
+    git remote add upstream[HTTPS]
+
+- Después, buscamos todos los cambios  del repositorio original con fech(nos indicará la rama local en la qeu se han almacenado todos los cambios): 
+
+    git fech upstream
+
+- Por ultimo, mergeamos la rama anterior a la rama miain local con merge: 
+
+    git merge <nombre de la rama anterior>
+
+Y enviamos los cambios a GitHub con push: 
+
+    git push origin master
+
+- Una vez enviados los cambios con el anetrior comando, podiramos eliminar las ramas que ya no nos sirven:
+
+    git branch -d <nombre de la rama>
 
 ### Conflictos que nos han surgido.
 
